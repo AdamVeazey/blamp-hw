@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "90f900ff-e6f7-4b42-9414-7e4ea0d3c559")
+	(paper "A4")
+	(title_block
+		(title "Blamp")
+		(date "2026-08-09")
+		(rev "A")
+		(company "VZ")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56106df7-956a-4c94-981d-a3f2f405ebf9")
+		(property "Sheetname" "Microcontroller & UI"
+			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 25.4 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 87.63)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "841b646d-11f9-48f0-98ae-69b9b8752b35")
+		(property "Sheetname" "Bluetooth Module"
+			(at 25.4 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FSC_BT1026E.kicad_sch"
+			(at 25.4 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8902f5e7-844e-4e7c-9871-0d2862afb4fe")
+		(property "Sheetname" "Audio Front-End & Mux"
+			(at 152.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCM9211.kicad_sch"
+			(at 152.4 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 152.4)
+		(size 101.6 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "edcce648-6f64-4e76-9736-494025343211")
+		(property "Sheetname" "Power Distribution Network"
+			(at 25.4 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 25.4 193.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 88.9)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f6a775e2-6ae5-4795-adb2-ef5957f23ebd")
+		(property "Sheetname" "Audio Amplifer & Output"
+			(at 152.4 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TAS3251.kicad_sch"
+			(at 152.4 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
