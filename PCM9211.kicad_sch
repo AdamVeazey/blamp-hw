@@ -5217,12 +5217,6 @@
 		(uuid "f5f04801-d8f4-4cb0-8de5-fb4abf9705e4")
 	)
 	(junction
-		(at 228.6 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0682b0d7-98a3-4155-94ed-57cac7e7f420")
-	)
-	(junction
 		(at 279.4 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5283,16 +5277,34 @@
 		(uuid "603f1a70-fc58-433f-8822-df74a7928d66")
 	)
 	(junction
+		(at 224.79 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e618e0-829f-4523-afa8-b439f7a0ff11")
+	)
+	(junction
 		(at 68.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b2bd341-6df2-496e-b930-675cf5b4cefe")
 	)
 	(junction
+		(at 224.79 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e0e80ed-a9d4-48a3-8800-438a7f1345fb")
+	)
+	(junction
 		(at 57.15 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76bb4bd8-55a1-4f74-9565-a0ab90142be9")
+	)
+	(junction
+		(at 224.79 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78867c86-900e-4ec6-8bd4-8e441cf4f4d9")
 	)
 	(junction
 		(at 107.95 99.06)
@@ -5389,12 +5401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8b93bc6-3020-46cd-8703-d3930d252635")
-	)
-	(junction
-		(at 228.6 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d92a4b31-3620-4912-9bd7-89e96974c9d2")
 	)
 	(junction
 		(at 86.36 179.07)
@@ -5729,6 +5735,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 114.3) (xy 224.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172f07d1-d5bd-4be5-aa47-5203059c9e13")
+	)
+	(wire
+		(pts
 			(xy 27.94 29.21) (xy 76.2 29.21)
 		)
 		(stroke
@@ -5776,16 +5792,6 @@
 			(type default)
 		)
 		(uuid "232c0df5-75ab-46f7-bcab-bd339b9dd645")
-	)
-	(wire
-		(pts
-			(xy 228.6 111.76) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2614a4f1-ebb1-4b55-87fd-d6ab912ce25b")
 	)
 	(wire
 		(pts
@@ -6228,16 +6234,6 @@
 		)
 		(uuid "5c862b0e-3f5a-4dad-93d8-0ef674872af8")
 	)
-	(wire
-		(pts
-			(xy 223.52 111.76) (xy 228.6 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64351058-60c1-4262-af3c-b6469618b7b9")
-	)
 	(polyline
 		(pts
 			(xy 96.52 111.76) (xy 96.52 195.58)
@@ -6261,13 +6257,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 116.84) (xy 228.6 116.84)
+			(xy 224.79 111.76) (xy 224.79 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68095484-77d9-4027-bb5a-8db4023847ae")
+		(uuid "675bc6de-77bd-4c30-a32e-39146bae18bb")
 	)
 	(wire
 		(pts
@@ -6428,6 +6424,16 @@
 			(type default)
 		)
 		(uuid "78f8352d-37b6-47ab-ac2a-e333e38d09de")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 224.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa2633e-26ce-4c09-9ea9-78e930968029")
 	)
 	(wire
 		(pts
@@ -6842,6 +6848,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 116.84) (xy 224.79 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c44082-a91b-4ac3-bed5-5b3696bf2154")
+	)
+	(wire
+		(pts
 			(xy 171.45 60.96) (xy 187.96 60.96)
 		)
 		(stroke
@@ -6872,6 +6888,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 111.76) (xy 224.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b047aa5e-ae85-49c2-807a-0213fb754d2d")
+	)
+	(wire
+		(pts
 			(xy 62.23 165.1) (xy 62.23 170.18)
 		)
 		(stroke
@@ -6899,16 +6925,6 @@
 			(type default)
 		)
 		(uuid "b2dd562b-3a38-4e2d-8254-7db04ad6a62c")
-	)
-	(wire
-		(pts
-			(xy 228.6 116.84) (xy 228.6 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33e055a-ac3e-4fcb-8400-2127f92f78be")
 	)
 	(wire
 		(pts
@@ -6989,16 +7005,6 @@
 			(type default)
 		)
 		(uuid "bc206abb-1702-4645-83f7-87ca5468c787")
-	)
-	(wire
-		(pts
-			(xy 223.52 114.3) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be91edf1-e09d-4041-9c6f-c3c17daa7c37")
 	)
 	(wire
 		(pts
@@ -7249,16 +7255,6 @@
 			(type default)
 		)
 		(uuid "d9a58416-a16e-4533-b008-f5d09e1e777f")
-	)
-	(wire
-		(pts
-			(xy 228.6 114.3) (xy 228.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da1fa747-f714-4197-bfc5-5b41ee4f01ea")
 	)
 	(wire
 		(pts
@@ -7600,6 +7596,16 @@
 			(type default)
 		)
 		(uuid "f51b39c3-ae4c-4f76-9bbb-a04903567082")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 224.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69739ea-8df0-4741-a5ac-f4d2eab3e109")
 	)
 	(wire
 		(pts
@@ -8666,84 +8672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 224.79 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dcebf19-7456-45fd-9612-29c9a0d18fd8")
-		(property "Reference" "#PWR056"
-			(at 224.79 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 224.79 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 224.79 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab0f76f8-1b67-4bcd-92fc-4cbc55dfe68e")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 43.18 182.88 0)
 		(mirror y)
@@ -9151,84 +9079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 95.25 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "120a8469-28b3-4b7b-a7d3-5fcd251fc789")
-		(property "Reference" "#PWR062"
-			(at 95.25 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 95.25 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 95.25 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1641c4ac-367e-4e3f-801a-4e472d02a532")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 43.18 55.88 0)
 		(mirror y)
@@ -9614,7 +9464,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 68.58 73.66 0)
+		(at 66.04 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9623,9 +9473,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2237004d-2120-4ee4-a67e-875169d1a789")
-		(property "Reference" "#PWR059"
-			(at 68.58 80.01 0)
+		(uuid "2326edab-511f-4ab0-974c-eb61827e2a82")
+		(property "Reference" "#PWR0120"
+			(at 66.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,8 +9485,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 68.58 78.74 0)
+		(property "Value" "GND"
+			(at 66.04 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9646,7 +9496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 73.66 0)
+			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,7 +9507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 73.66 0)
+			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +9518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 68.58 73.66 0)
+			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,12 +9529,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d872112-99a1-4ca8-9a3d-1a88511c80bb")
+			(uuid "93504b24-1604-4d78-afec-64917da1201e")
 		)
 		(instances
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR059")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -9919,6 +9769,84 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 81.28 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "293f4e2b-f94b-4b17-9bf6-078a3bd5acbd")
+		(property "Reference" "#PWR0119"
+			(at 81.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e56eae8-4e4c-4871-b812-f6388cda6e5d")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10372,85 +10300,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 91.44 68.58 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3594b60a-04ed-43d1-b832-6d93c4393555")
-		(property "Reference" "#PWR076"
-			(at 91.44 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 91.44 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c93420c-c7a1-4951-b910-3cf3088561eb")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
 		(at 133.35 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -10528,6 +10377,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 68.58 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3850748a-42e7-4425-a1da-2b78954a021c")
+		(property "Reference" "#PWR0108"
+			(at 68.58 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 68.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34ad7b45-51ea-42a0-ba69-39fa2a7c02cf")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 45.72 119.38 0)
 		(unit 1)
@@ -10599,6 +10526,84 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 224.79 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5ef870-eb58-434f-9f5b-6610cd0fe873")
+		(property "Reference" "#PWR0125"
+			(at 224.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 224.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b09123ae-9be2-4e99-b6af-659c3601168f")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -11248,84 +11253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 66.04 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f8a63ed-6a0d-44ce-aa67-0f0864467188")
-		(property "Reference" "#PWR0109"
-			(at 66.04 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 66.04 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 66.04 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48c958ee-93df-4f87-8c8d-4f850b458d64")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 121.92 73.66 270)
 		(mirror x)
@@ -11881,6 +11808,84 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 104.14 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654579b2-8654-4b9f-a888-39877437c1ef")
+		(property "Reference" "#PWR0122"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e80a019b-335e-4cd7-ab1f-580427da26df")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -12529,84 +12534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 104.14 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e9bd22c-67a4-4600-b2bf-243223aa6192")
-		(property "Reference" "#PWR058"
-			(at 104.14 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 104.14 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0e675e5-ee1d-4ad1-941a-1b51e78cdaa4")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 43.18 68.58 0)
 		(mirror y)
@@ -13092,6 +13019,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 91.44 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b861723-3ed7-40a6-ab43-e58201b41968")
+		(property "Reference" "#PWR0121"
+			(at 91.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0a34c89-16ae-484e-a94e-a8370df13a93")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "3rdParty:RCJ-041")
 		(at 25.4 87.63 0)
 		(unit 1)
@@ -13399,84 +13404,6 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 228.6 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "934524f5-6294-4771-bf55-4a480d7b8691")
-		(property "Reference" "#PWR060"
-			(at 228.6 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 228.6 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35cf57d8-8502-47c7-9d00-ddc0f1fa1be1")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -13843,7 +13770,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 55.88 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13979,7 +13906,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 81.28 31.75 0)
+		(at 95.25 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13988,9 +13915,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3638c65-7252-45ad-81c1-842c63fca2f3")
-		(property "Reference" "#PWR072"
-			(at 81.28 38.1 0)
+		(uuid "b3394ac3-cacb-428d-abfd-d3caf3621daa")
+		(property "Reference" "#PWR0123"
+			(at 95.25 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14000,8 +13927,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 81.28 36.83 0)
+		(property "Value" "GND"
+			(at 95.25 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14011,7 +13938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 31.75 0)
+			(at 95.25 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14022,7 +13949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 31.75 0)
+			(at 95.25 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14033,7 +13960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 81.28 31.75 0)
+			(at 95.25 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14044,12 +13971,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d82f5f83-3994-4881-8760-2a0ce4ac8e2c")
+			(uuid "afcde181-0171-4ef8-b226-99e2adb5d1fc")
 		)
 		(instances
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR072")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -14530,84 +14457,6 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 107.95 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce071116-a8e6-4211-acfd-981dbe38a12a")
-		(property "Reference" "#PWR069"
-			(at 107.95 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 107.95 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 107.95 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "358f5f70-0e11-4858-b93c-70dd51be4676")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -15883,6 +15732,84 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 107.95 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd6338aa-e13b-450d-9959-dc522190e62b")
+		(property "Reference" "#PWR0124"
+			(at 107.95 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "973e0c79-5df9-46cc-84e5-c54349ca8d55")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/8902f5e7-844e-4e7c-9871-0d2862afb4fe"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
