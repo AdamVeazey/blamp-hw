@@ -4710,8 +4710,8 @@
 		)
 	)
 	(rectangle
-		(start 198.12 30.48)
-		(end 223.52 38.1)
+		(start 195.834 28.956)
+		(end 221.234 36.576)
 		(stroke
 			(width 0)
 			(type default)
@@ -4755,7 +4755,7 @@
 	)
 	(text "Blamp Knob Connector\nEncoder + SW\nPEC11H-4220F-S0024\n"
 		(exclude_from_sim no)
-		(at 210.566 34.544 0)
+		(at 208.28 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5105,12 +5105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9c72853-085f-4a37-9fc8-f7a8153c3ff3")
-	)
-	(junction
-		(at 186.69 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa609320-fdd0-4c96-97ea-467b9cde2be0")
 	)
 	(junction
 		(at 92.71 46.99)
@@ -6058,16 +6052,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 38.1) (xy 186.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709dd656-99b9-487c-a138-de7b1cc4ade3")
-	)
-	(wire
-		(pts
 			(xy 105.41 31.75) (xy 105.41 33.02)
 		)
 		(stroke
@@ -6075,16 +6059,6 @@
 			(type default)
 		)
 		(uuid "71e1e55c-ecf0-4cdf-a7f8-d0ad86cb5032")
-	)
-	(wire
-		(pts
-			(xy 186.69 29.21) (xy 196.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73448e48-dc25-4291-bfe1-8f3c61afe27e")
 	)
 	(wire
 		(pts
@@ -6298,16 +6272,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 186.69 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6e24cb-821a-4403-b3a4-476d55b1be63")
-	)
-	(wire
-		(pts
 			(xy 163.83 93.98) (xy 219.71 93.98)
 		)
 		(stroke
@@ -6518,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 45.72) (xy 204.47 45.72)
+			(xy 201.93 45.72) (xy 204.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6888,17 +6852,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 45.72) (xy 196.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f08b7b12-df82-4b01-8afb-0695a44a3aa7")
-	)
-	(wire
-		(pts
-			(xy 186.69 27.94) (xy 186.69 29.21)
+			(xy 201.93 44.45) (xy 201.93 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9725,84 +9679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 186.69 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64fb88fc-139d-453d-9cca-b63b66a0a114")
-		(property "Reference" "#PWR0108"
-			(at 186.69 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 186.69 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18920dd2-b1c6-4f75-9950-c643f253c8b1")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/56106df7-956a-4c94-981d-a3f2f405ebf9"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 198.12 111.76 180)
 		(unit 1)
@@ -10814,89 +10690,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 186.69 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ed9ecce-147d-48eb-8f00-e5bc94d98aa2")
-		(property "Reference" "C71"
-			(at 190.5 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 190.5 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.6552 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de2c9564-6b61-479c-8e41-15d52bf22c3c")
-		)
-		(pin "2"
-			(uuid "3caa7405-098b-456f-b6ea-372877b5fb02")
-		)
-		(instances
-			(project "Blamp"
-				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/56106df7-956a-4c94-981d-a3f2f405ebf9"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 186.69 27.94 0)
+		(at 201.93 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10907,7 +10702,7 @@
 		(fields_autoplaced yes)
 		(uuid "90f4dc0c-1e48-44a8-867a-c0ca1bff1130")
 		(property "Reference" "#PWR0105"
-			(at 186.69 31.75 0)
+			(at 201.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +10713,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 186.69 22.86 0)
+			(at 201.93 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10928,7 +10723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 27.94 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +10734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 27.94 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +10745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 27.94 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
