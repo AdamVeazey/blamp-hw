@@ -307,6 +307,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -4861,6 +4984,12 @@
 		(uuid "009e638e-2296-4943-9c92-6b6055d805ef")
 	)
 	(junction
+		(at 66.0399 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125fd44d-13a1-4e75-a5b5-41960c38e047")
+	)
+	(junction
 		(at 224.79 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4937,6 +5066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d483637-ff89-45b1-947b-16b84d1effdf")
+	)
+	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c096244-caf5-4547-9a22-3f9e019ea9fc")
 	)
 	(junction
 		(at 111.76 52.07)
@@ -5242,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 121.92) (xy 113.03 121.92)
+			(xy 59.69 121.92) (xy 66.0399 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5529,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "2b811e7b-070c-4792-84c2-48977148eb79")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b829ac8-e8a4-4a18-aec7-a7e0e718df7a")
 	)
 	(wire
 		(pts
@@ -6412,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 119.38) (xy 50.8 119.38)
+			(xy 113.03 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6839,6 +6984,16 @@
 			(type default)
 		)
 		(uuid "edd6efe1-6bac-456e-8341-c67ef47fcd0c")
+	)
+	(wire
+		(pts
+			(xy 66.0399 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0bd2c7-c86a-4a8f-ab2e-d85121931ba5")
 	)
 	(wire
 		(pts
@@ -12124,6 +12279,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.0399 121.92 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaf1cf26-1ad3-4c15-b087-416491c575bf")
+		(property "Reference" "TP2"
+			(at 67.3099 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCU_I2C_SDA"
+			(at 66.5479 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 71.1199 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.1199 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.0399 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fddbe1a-1ede-440d-8d79-736793f84504")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/56106df7-956a-4c94-981d-a3f2f405ebf9"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 39.37 0)
 		(unit 1)
@@ -12199,6 +12433,84 @@
 			(project "Blamp"
 				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/56106df7-956a-4c94-981d-a3f2f405ebf9"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6d869df-0b86-4c58-86fe-fa89de3c8998")
+		(property "Reference" "TP1"
+			(at 67.31 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCU_I2C_SCL"
+			(at 66.548 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d3f2dbd-9a18-457f-985b-c617e0eeec47")
+		)
+		(instances
+			(project "Blamp"
+				(path "/90f900ff-e6f7-4b42-9414-7e4ea0d3c559/56106df7-956a-4c94-981d-a3f2f405ebf9"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
